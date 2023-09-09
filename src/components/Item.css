@@ -1,0 +1,12 @@
+.expense{
+    border-right: 10px solid red;
+   
+}
+.income{
+    border-right: 10px solid #1fbd7c;
+   
+}
+.status-text  {
+    font-size: 15px;
+    color: #c91b57;
+}

@@ -1,0 +1,75 @@
+h4 {
+    font-size: 17px;
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 35px;
+
+}
+
+.sectionReport {
+
+    width: 320px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 20px;
+}
+
+.ReportTitle-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ReportDetail-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.ReportDetail-wrap p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.income-wrap,
+.expense-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+
+.income-wrap p:last-child {
+    color: #1fbd7c;
+    font-size: 20px;
+}
+
+.expense-wrap p:last-child {
+    color: red;
+    font-size: 20px;
+}
+
+.line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 2px;
+    height: 80px;
+    background-color: #c1c1c1;
+    border-radius: 6px;
+}
